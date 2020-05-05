@@ -2,7 +2,8 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
     create_table :costumes do |x|
       x.string :name 
-      x.integer :price
+      x.float :price
+      x.string :image_url
       
 end
 # By convention, the class name should match the part of the
