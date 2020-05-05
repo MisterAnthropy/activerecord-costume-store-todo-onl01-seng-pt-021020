@@ -4,6 +4,9 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
       x.string :name 
       x.float :price
       x.string :image_url
+      x.string :size 
+    end
+  end
       
 end
 # By convention, the class name should match the part of the
