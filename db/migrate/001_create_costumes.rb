@@ -1,5 +1,9 @@
 class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
+    create_table :costumes do |x|
+      x.string :name 
+      x.integer :price
+      
 end
 # By convention, the class name should match the part of the
 # file name after the number, so in this case:
